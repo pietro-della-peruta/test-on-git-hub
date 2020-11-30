@@ -1,7 +1,10 @@
 Utilizzo di git da visual studio code 
+https://www.youtube.com/watch?v=Fk12ELJ9Bww
+
 
 1 - creare un file oppure un folder in visual studio code (VSC)
 2 - inserire il file oppure folder in git 
 3 - commit dei cambi su git 
 4 - aggiungere un remote github repository (Add Remote, dalla palette dei comandi sulla feature git)
 5 - eseguire il push dei cambiamenti committed on local git sul git remoto 
+
