@@ -1,5 +1,0 @@
-this is a test for using githut  
-adding a new line in the code 
-commit the change in the git (local repository)
-then push the change in the remote repository
-another commmit ...
