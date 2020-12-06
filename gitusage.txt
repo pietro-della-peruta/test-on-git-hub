@@ -11,10 +11,12 @@ https://www.youtube.com/watch?v=Fk12ELJ9Bww
 Utilizzo del connettore con openshift 
 https://developers.redhat.com/blog/2019/10/31/openshift-connector-visual-studio-code-extension-for-red-hat-openshift/
 1 - far partire il crc  start -n <dns di mac> -p <path/pull-secret> 
-2 - usare la vista  openshift su visual studio code 
+2 - usare la vista  openshift su visual studio code e fare log in al cluster
 3 - creare un progetto dalla vista openshift
 4 - creare una applicazione nel progetto 
-5 - creare un componente nella applicazione 
+5 - creare un componente nella applicazione. Il componente ha un nome arbitrario ed un tipo.  Il tipo e' l'ambiente runtime (java, node , go etc)
+    con cui e' scritto il componente.  Il tipo del componente deve essere supportato dal cluster openshif, per cui
+    tipicamente viene presentata la lista dei componenti disponibii da cui selezionare il tipo. 
     5.1 - Il componente puo' essere creato a partire da un repo github oppure da un file binario oppure dal un foder gia presente nel workspace
     5.2 - Il componente richiede la creazione di un workspace o l'uso di un workspace gia presente in VSC
 6 - va quindi creato un route (URL) per il componente
